@@ -2,8 +2,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body, html {
   background: #edeff0;
+  font-family: 'Varela Round', sans-serif;
 }
 /* Main Container */
 .wrap {
@@ -11,53 +13,48 @@ body, html {
   margin: 0 auto;
 }
 
-.footer-1, .footer-2 {
-  margin-top: 70px;
-  float: left;
-  border: 2px solid grey;
-  padding: 7px;
-  border-radius: 20px;
-}
-
-.footer-1 {
-  margin-right: 15px;
-  margin-left: 25px;
+.cf:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Main Nav Bar */
 .nav {
   height: 100px;
   width: 100%;
-  border: 2px solid blue;
+  border;
 }
 
-.cf:after{
-  content: "";
-  display: table;
-  clear: both;
-}
 #main-nav-left {
   float: left;
-  border: 2px solid red;
+  margin-top: 25px;
 }
 
 #main-nav-right li {
   float: right;
   display: inline;
   list-style: none;
-  border: 2px solid red;
+  margin-top: 25px;
+  font-size: 25px;
+  padding: 0 5px;
+}
+
+#book {
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 /* Course 1 */
 .tree-1 {
   float: left;
   width: 540px;
-  height: 300px;
+  height: 310px;
   background: white;
   border: 2px solid #4b9477;
   border-radius: 5px;
   margin-left: 20px;
-  padding-bottom: 10px;
+  box-shadow: 0 2px 2px 0 #9ba0a4;
 }
 
 #tree-1-p {
@@ -76,6 +73,9 @@ body, html {
 
 .nav-1 p {
   float: right;
+  margin-top: 25px;
+  margin-right: 20px;
+  color: white;
 }
 
 .play-1 {
@@ -94,10 +94,11 @@ body, html {
   float: right;
   background: white;
   width: 540px;
-  height: 300px;
+  height: 310px;
   border: 2px solid #e596af;
   border-radius: 5px;
   margin-right: 20px;
+  box-shadow: 0 2px 2px 0 #9ba0a4;
 }
 
 #tree-2-p {
@@ -117,6 +118,8 @@ body, html {
 
 .nav-2 p {
   float: right;
+  margin: 25px 20px 0 0;
+  color: white;
 }
 
 .play-2 {
@@ -135,11 +138,12 @@ body, html {
   float: left;
   background: white;
   width: 540px;
-  height: 300px;
+  height: 310px;
   border: 2px solid #848bc4;
   border-radius: 5px;
   margin-left: 20px;
   margin-top: 20px;
+  box-shadow: 0 2px 2px 0 #9ba0a4;
 }
 
 #tree-3-p {
@@ -159,6 +163,8 @@ body, html {
 
 .nav-3 p {
   float: right;
+  margin: 25px 20px 0 0;
+  color: white;
 }
 
 .play-3 {
@@ -177,11 +183,12 @@ body, html {
   float: right;
   background: white;
   width: 540px;
-  height: 300px;
+  height: 310px;
   border: 2px solid #4b9477;
   border-radius: 5px;
   margin-right: 20px;
   margin-top: 20px;
+  box-shadow: 0 2px 2px 0 #9ba0a4;
 }
 
 #tree-4-p {
@@ -201,6 +208,8 @@ body, html {
 
 .nav-4 p {
   float: right;
+  margin: 25px 20px 0 0;
+  color: white;
 }
 
 .play-4 {
@@ -213,4 +222,18 @@ body, html {
   float: right;
   margin-top: 70px;
   padding-right: 25px;
+}
+
+/* Footer */
+.footer-1, .footer-2 {
+  margin-top: 70px;
+  float: left;
+  border: 2px solid grey;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.footer-1 {
+  margin-right: 15px;
+  margin-left: 25px;
 }
