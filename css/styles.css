@@ -1,0 +1,114 @@
+body, html {
+  background: #edeff0;
+}
+/* Main Container */
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  background: green;
+}
+
+/* Main Nav Bar */
+.nav {
+  height: 100px;
+  width: 100%;
+  border: 2px solid blue;
+}
+
+.cf:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+#main-nav-left {
+  float: left;
+  border: 2px solid red;
+}
+
+#main-nav-right li {
+  float: right;
+  display: inline;
+  list-style: none;
+  border: 2px solid red;
+}
+
+/* Course 1 */
+.tree-1 {
+  float: left;
+  width: 540px;
+  border: 2px solid #4b9477;
+}
+
+.nav-1 {
+  height: 80px;
+  background: #4b9477;
+}
+.nav-1 img {
+  float: left;
+}
+
+.nav-1 p {
+  float: right;
+}
+
+/* Course 2 */
+.tree-2 {
+  float: right;
+  clear: both;
+  width: 540px;
+  border: 2px solid #e596af;
+}
+
+.nav-2 {
+  height: 80px;
+  background: #e596af;
+}
+
+.nav-2 img {
+  float: left;
+}
+
+.nav-2 p {
+  float: right;
+}
+
+/* Course 3 */
+.tree-3 {
+  float: left;
+  width: 540px;
+  border: 2px solid #848bc4;
+}
+
+.nav-3 {
+  height: 80px;
+  background: #848bc4;
+}
+
+.nav-3 img {
+  float: left;
+}
+
+.nav-3 p {
+  float: right;
+}
+
+/* Course 4 */
+.tree-4 {
+  float: right;
+  clear: both;
+  width: 540px;
+  border: 2px solid #4b9477;
+}
+
+.nav-4 {
+  height: 80px;
+  background: #4b9477;
+}
+
+.nav-4 img {
+  float: left;
+}
+
+.nav-4 p {
+  float: right;
+}
