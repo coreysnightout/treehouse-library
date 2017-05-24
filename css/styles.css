@@ -45,11 +45,24 @@ body, html {
   margin-top: 20px;
 }
 
+h4, h2 {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-bottom: 20px;
+}
+
 /* Course 1 */
 .tree-1 {
   float: left;
   width: 540px;
-  height: 310px;
+  height: 320px;
   background: white;
   border: 2px solid #4b9477;
   border-radius: 5px;
@@ -94,7 +107,7 @@ body, html {
   float: right;
   background: white;
   width: 540px;
-  height: 310px;
+  height: 320px;
   border: 2px solid #e596af;
   border-radius: 5px;
   margin-right: 20px;
@@ -138,7 +151,7 @@ body, html {
   float: left;
   background: white;
   width: 540px;
-  height: 310px;
+  height: 320px;
   border: 2px solid #848bc4;
   border-radius: 5px;
   margin-left: 20px;
@@ -183,7 +196,7 @@ body, html {
   float: right;
   background: white;
   width: 540px;
-  height: 310px;
+  height: 320px;
   border: 2px solid #4b9477;
   border-radius: 5px;
   margin-right: 20px;
@@ -228,9 +241,22 @@ body, html {
 .footer-1, .footer-2 {
   margin-top: 70px;
   float: left;
-  border: 2px solid grey;
+  border: 2px solid #9ba0a4;
   padding: 7px;
   border-radius: 20px;
+  color: black;
+}
+
+.java1 {
+  color: #4b9477;
+}
+
+.python {
+  color: #e596af;
+}
+
+.wordpress {
+  color: #848bc4;
 }
 
 .footer-1 {
